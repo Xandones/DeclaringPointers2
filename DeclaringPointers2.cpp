@@ -16,4 +16,7 @@ int main()
 	std::cout << "ptr2's RAM memory address: " << &ptr2 << "\n";
 	*ptr2 = *ptr + 10; // This is a example on how you change the value of a varible using pointers. 
 	std::cout << "\nValue of Number updated: " << Number << "\n";
+	*ptr = Number++; // To set a valor to variable through a pointer you just need to add an asterisk in the pointer's name and make a regular attribuition. 
+	std::cout << "\nValue of Number set through pointer: " << Number << "\n";
+
 }
